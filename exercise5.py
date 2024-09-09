@@ -54,7 +54,7 @@ while True:
 # and stores them into a list structure.
 # Finally, the program prints out the names of the cities one by one, one city per line, in the same order they were read as input.
 # Use a for loop for asking the names and a for/in loop to iterate through the list.
-'''
+
 cityList = []
 for i in range(0,5):
     userInput = input("enter the name of city you know: ")
@@ -63,6 +63,7 @@ for i in range(0,5):
     else:
         cityList.append(userInput)
     i+=1
-print(cityList)
+for city in cityList:
+    print(city)
 
-'''
+
